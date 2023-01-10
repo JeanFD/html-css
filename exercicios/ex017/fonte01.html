@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family:  Arial, Helvetica, sans-serif;
+            /*
+            Medidas Abasolutas
+            cm(centimetro), mm(milímetro), in(polegada), px(pixel), pt(ponto), pc(paica)
+
+            Medidas Relativas
+            em(relativa ao tamanho atual da fonte), ex(relativa a altura x da fonte), rem(tipo em porém relativo ao Root, a fonte que está configurada no body), vw(relativo a largura da view port), vh(altura da view port), %
+
+            para medida de fonte é recomendado o uso do px e em
+
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+            
+            /*weight - peso 
+             width - largura
+             height - altura*/
+        }
+        h1{
+            /* font-family: 'Work Sans',sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic; */
+
+            /* shorthand font
+            - font-style -> font-weight -> font-siza -> font-family */
+
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2{
+            font: bold 2em "Work Sans", sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem incidunt veritatis aperiam sequi nemo. Iste, velit! Quaerat distinctio, incidunt voluptatum illum impedit dolorum, enim amet numquam quod, reiciendis expedita eos? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam numquam accusantium, perferendis sit nisi porro, deleniti reprehenderit necessitatibus, a praesentium doloremque ea velit temporibus fuga voluptatibus? Enim hic corrupti nobis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur cum quasi consequatur aperiam, obcaecati modi dolorum, quos corporis tempora laudantium nobis sed neque consequuntur porro enim a fugiat distinctio! Pariatur?
+    </p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque officiis sed, cumque voluptas corrupti fugit? Exercitationem amet est sapiente eos libero numquam error assumenda quaerat, iste ab officiis in magni.</p>
+
+    <h2>Subitítulo</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga accusantium hic repellendus corrupti quas reiciendis maxime. Repellat hic quas consequuntur itaque vero quae laudantium dolore, facilis blanditiis, tempora architecto velit?</p>
+</body>
+</html>
